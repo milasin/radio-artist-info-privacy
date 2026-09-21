@@ -36,9 +36,9 @@ code{background:#f2f2f4;padding:.1em .3em;border-radius:3px}
 <h2>Permissions the app declares</h2>
 <ul>
 <li><strong>INTERNET</strong> — to play streams and contact the services above.</li>
-<li><strong>ACCESS<em>NETWORK</em>STATE</strong> — to check network connectivity.</li>
+<li><strong>ACCESS_NETWORK_STATE</strong> — to check network connectivity.</li>
 <li><strong>WAKE_LOCK</strong> — to keep audio playing while the screen is off.</li>
-<li><strong>FOREGROUND<em>SERVICE</strong> and <strong>FOREGROUND</em>SERVICE<em>MEDIA</em>PLAYBACK</strong> — required by Android for background media playback with a playback notification.</li>
+<li><strong>FOREGROUND_SERVICE</strong> and <strong>FOREGROUND_SERVICE_MEDIA_PLAYBACK</strong> — required by Android for background media playback with a playback notification.</li>
 <li><strong>POST_NOTIFICATIONS</strong> (Android 13 and later) — to show the playback notification. The app asks for this once on first launch; you can decline and playback still works.</li>
 </ul>
 <p>The app does not request location, microphone, camera, contacts, calendar, phone or storage permissions. Playing local audio files uses the system file picker, which needs no permission, and the files are not uploaded anywhere.</p>
